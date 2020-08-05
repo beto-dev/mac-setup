@@ -1,6 +1,0 @@
-cask 'intellij-idea-ce'
-brew 'git'
-brew 'npm'
-brew 'maven'
-brew 'gradle'
-cask 'visual-studio-code'
