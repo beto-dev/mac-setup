@@ -68,6 +68,9 @@ Related post
         ```
 
     - **Brewfile**
+
+        [Brewfile](Brewfile)
+
 - **Oh My Zsh**
 
     ```bash
