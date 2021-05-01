@@ -1,23 +1,46 @@
-brew install \
-  git \
-  maven \
-  gradle 
-  &&
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
 
-brew cask install \
-  visual-studio-code \
-  google-chrome \
-  iterm2 \
-  docker \
-  vlc \
-  slack \
-  spotify \
-  postman \
-  1password \
-  intellij-idea-ce \
-  alfred \
-  spectacle \
-  whatsapp \
-  notion \
-  dropbox \
-  vlc
+brew "cask"
+brew "git"
+brew "git-extras"
+brew "gh"
+brew "maven"
+brew "gradle"
+brew "htop"
+brew "jq"
+brew "hugo"
+brew "mas"
+brew "pandoc" 
+brew "shpotify"
+brew "tldr"
+brew "wget"
+brew "youtube-dl"
+brew "zsh"
+brew "nvm"
+brew "autojump"
+brew "watch"
+
+cask "macpass"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "iterm2"
+cask "docker"
+cask "vlc"
+cask "slack"
+cask "spotify"
+cask "postman"
+cask "1password"
+cask "intellij-idea"
+cask "alfred"
+cask "spectacle"
+cask "whatsapp"
+cask "notion"
+cask "dropbox"
+cask "vlc"
+cask "iterm2"
+cask "logitech-options"

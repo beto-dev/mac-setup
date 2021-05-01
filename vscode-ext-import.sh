@@ -1,0 +1,14 @@
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension esbenp.prettier-vscode
+code --install-extension humao.rest-client
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension p1c2u.docker-compose
+code --install-extension redhat.java
+code --install-extension ritwickdey.LiveServer
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-java-test
+code --install-extension vscjava.vscode-maven
+code --install-extension xabikos.JavaScriptSnippets

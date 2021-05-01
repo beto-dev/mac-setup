@@ -1,0 +1,7 @@
+[user]
+	name = Alberto Tejos
+	email = alb.tejos.dev@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = code --wait
