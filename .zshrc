@@ -25,7 +25,7 @@ alias brewu='brew update'
 alias c="clear";
 alias idea="idea .";
 alias code="code .";
-alias ll="ll -a";
+alias ll="ls -a";
 alias ..="cd ../";
 alias ..l="cd ../ && ll";
 alias pg="echo 'Pinging Google' && ping www.google.com";
@@ -89,10 +89,15 @@ alias md="mkdir "
 alias ..='cd ..'
 alias ...='cd ../..'
 
+# gitignore
+function gi() { 
+  curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/\$@;
+}
+
 # autojump 
-[ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-
+#nvm
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
