@@ -14,18 +14,15 @@
     
 2. Clic the following link to add the SSH key to GitHub:
     
-    [Build software better, together](https://github.com/settings/keys)
-    
+    [GitHub > Settings > Keys](https://github.com/settings/keys) 
 
-### 2. Clone the repository
+### 2. Clone the [repository](https://github.com/beto-dev/mac-setup)
 
 ```bash
 git clone git@github.com:beto-dev/mac-setup.git
 ```
 
-[beto-dev/mac-setup](https://github.com/beto-dev/mac-setup)
-
-### 3. Run the script
+### 3. Run the installation script
 
 ```bash
 ./install.sh
