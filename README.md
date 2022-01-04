@@ -30,10 +30,11 @@ git clone git@github.com:beto-dev/mac-setup.git
 
 ## Process summary
 
-The script ****./install.sh** will execute the following scripts (ordered by execution):
+The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh) script will execute the following scripts (ordered by execution):
 
-| brew.sh | To install, update, bundle and display Homebrew apps. |
+| File | Description |
 | --- | --- |
+| brew.sh | To install, update, bundle and display Homebrew apps. |
 | zsh.sh | To install and configure Oh My Zsh.  |
 | git.sh | To setup Git configuration. |
 | nvm.sh | To install Node Version Manager + NPM and Node. |
