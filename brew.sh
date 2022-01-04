@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# "chmod +x brew.sh"
-
 echo "Installing apps..."
 
 if test ! "$(which brew)"; then
