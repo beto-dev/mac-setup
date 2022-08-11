@@ -9,7 +9,7 @@ The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh)
 | git.sh | To setup Git configuration. |
 | nvm.sh | To install Node Version Manager + NPM and Node. |
 | gcp.sh | To install Google Cloud SDK + kubectl. |
-| vscode-extensions-intall.sh | To install Visual Studio Code extensions. |
+| vscode-extensions-install.sh | To install Visual Studio Code extensions. |
 
 ---
 
