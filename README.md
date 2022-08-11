@@ -1,8 +1,23 @@
+## TL;DR
+
+The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh) script will execute the following scripts (ordered by execution) in order to setup our mac:
+
+| File | Description |
+| --- | --- |
+| brew.sh | To install, update, bundle and display Homebrew apps. |
+| zsh.sh | To install and configure Oh My Zsh.  |
+| git.sh | To setup Git configuration. |
+| nvm.sh | To install Node Version Manager + NPM and Node. |
+| gcp.sh | To install Google Cloud SDK + kubectl. |
+| vscode-extensions-intall.sh | To install Visual Studio Code extensions. |
+
+---
+
 ## Installation steps
 
 ### 1. GitHub SSH key
 
-1. Run this code in your terminal to setup the SSH key:
+- Setup the SSH key:
     
     ```bash
     cd ~/.ssh && 
@@ -12,7 +27,7 @@
     pbcopy < ~/.ssh/github.pub #the public key will be copied to the clipboard
     ```
     
-2. Clic the following link to add the SSH key to GitHub:
+- Add the SSH key to GitHub:
     
     [GitHub > Settings > Keys](https://github.com/settings/keys) 
 
@@ -27,16 +42,14 @@ git clone git@github.com:beto-dev/mac-setup.git
 ```bash
 ./install.sh
 ```
+---
 
-## Process summary
+## iTerm settings
 
-The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh) script will execute the following scripts (ordered by execution):
-
-| File | Description |
-| --- | --- |
-| brew.sh | To install, update, bundle and display Homebrew apps. |
-| zsh.sh | To install and configure Oh My Zsh.  |
-| git.sh | To setup Git configuration. |
-| nvm.sh | To install Node Version Manager + NPM and Node. |
-| gcp.sh | To install Google Cloud SDK + kubectl. |
-| vscode-extensions-intall.sh | To install Visual Studio Code extensions. |
+- Appareance 
+    - Theme: Minimal
+- Profiles
+    - Working directoy: Reuse previous session directory
+    - Keys
+        - Key mapping
+            - Presets: Natural Text Editing
