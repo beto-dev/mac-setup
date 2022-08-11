@@ -9,7 +9,6 @@ plugins=(
   git
   autojump
   zsh-autosuggestions
-  osx
   jsontools
   kubectl
   zsh-syntax-highlighting
