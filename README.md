@@ -21,7 +21,7 @@ The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh)
 git clone git@github.com:beto-dev/mac-setup.git
 ```
 
-### 3. Run the installation script
+### 2. Run the installation script
 
 ```bash
 ./install.sh
