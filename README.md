@@ -20,11 +20,12 @@ The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh)
 - Setup the SSH key:
     
     ```bash
+    mkdir -p ~/.ssh && 
     cd ~/.ssh && 
-    ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
-    eval "$(ssh-agent -s)"
-    ssh-add -K ~/.ssh/github
-    pbcopy < ~/.ssh/github.pub #the public key will be copied to the clipboard
+    ssh-keygen -t rsa -b 4096 -C “alb.tejos.dev@gmail.com” && 
+    eval "$(ssh-agent -s)" && 
+    ssh-add -K ~/.ssh/github && 
+    pbcopy < ~/.ssh/github.pub
     ```
     
 - Add the SSH key to GitHub:
