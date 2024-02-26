@@ -15,24 +15,7 @@ The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh)
 
 ## Installation steps
 
-### 1. GitHub SSH key
-
-- Setup the SSH key:
-    
-    ```bash
-    mkdir -p ~/.ssh && 
-    cd ~/.ssh && 
-    ssh-keygen -t rsa -b 4096 -C “alb.tejos.dev@gmail.com” && 
-    eval "$(ssh-agent -s)" && 
-    ssh-add -K ~/.ssh/github && 
-    pbcopy < ~/.ssh/github.pub
-    ```
-    
-- Add the SSH key to GitHub:
-    
-    [GitHub > Settings > Keys](https://github.com/settings/keys) 
-
-### 2. Clone the [repository](https://github.com/beto-dev/mac-setup)
+### 1. Clone the [repository](https://github.com/beto-dev/mac-setup) by HTTPS
 
 ```bash
 git clone git@github.com:beto-dev/mac-setup.git
