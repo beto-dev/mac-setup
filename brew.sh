@@ -2,9 +2,8 @@
 
 echo "Installing apps..."
 
-if test ! "$(which brew)"; then
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 brew --version
 brew update
 brew bundle
