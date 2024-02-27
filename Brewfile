@@ -1,12 +1,10 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 
 brew "cask"
-brew "appzapper"
 brew "git"
 brew "git-extras"
 brew "gh"
