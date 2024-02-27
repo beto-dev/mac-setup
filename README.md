@@ -1,5 +1,3 @@
-## TL;DR
-
 The [./install.sh](https://github.com/beto-dev/mac-setup/blob/master/install.sh) script will execute the following scripts (ordered by execution) in order to setup our mac:
 
 | File | Description |
