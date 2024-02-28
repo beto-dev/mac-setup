@@ -2,7 +2,7 @@
 
 #remove apps
 
-remove_apps=( Music Freeform Maps Mail Messages FaceTime TV Safari "Google Chrome" "iTerm" "IntelliJ IDEA" "Visual Studio Code" "GitHub Desktop" )
+remove_apps=( Music Freeform Maps Mail TV Safari "Google Chrome" "iTerm" "IntelliJ IDEA" "Visual Studio Code" "GitHub Desktop" )
 
 for key in "${!remove_apps[@]}"
 do
